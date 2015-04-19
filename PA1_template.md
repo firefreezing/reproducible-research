@@ -28,7 +28,7 @@ library(dplyr)
 Load the csv data:
 
 ```r
-activity <- read.csv("C:/project1/activity.csv")
+activity <- read.csv("D:/MOOC video/Reproducible Research/project1/activity.csv")
 ```
 
 This is a quick snapshot of the data:
@@ -99,7 +99,7 @@ hist(ActByDay$total, xlab = "total steps per day", breaks = 10,
      main = "The Distribution of Total Number of Steps Taken Each Day")
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6.png) 
+![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.png) 
 
 
 
@@ -128,7 +128,7 @@ points(x = ActByMinIntv$interval[which.max(ActByMinIntv$ave)],
        pch = 20, col = "red")
 ```
 
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9.png) 
+![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png) 
 
 
 On average across all the days in the dataset, the interval 835 contains the maximum number of steps.
@@ -180,7 +180,7 @@ hist(ActByDay2$total, xlab = "total steps per day", breaks = 10,
      main = "The Distribution of Total Number of Steps Taken Each Day")
 ```
 
-![plot of chunk unnamed-chunk-15](figure/unnamed-chunk-15.png) 
+![plot of chunk unnamed-chunk-15](figure/unnamed-chunk-15-1.png) 
 
 
 
@@ -241,4 +241,4 @@ with(ActByMinIntv.weekend,
      main = "Weekend"))
 ```
 
-![plot of chunk unnamed-chunk-20](figure/unnamed-chunk-20.png) 
+![plot of chunk unnamed-chunk-20](figure/unnamed-chunk-20-1.png) 

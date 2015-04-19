@@ -13,7 +13,7 @@ library(dplyr)
 ### 1. Loading and preprocessing the data
 Load the csv data:
 ```{r}
-activity <- read.csv("C:/project1/activity.csv")
+activity <- read.csv("D:/MOOC video/Reproducible Research/project1/activity.csv")
 ```
 
 This is a quick snapshot of the data:
